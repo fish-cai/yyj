@@ -1,0 +1,3 @@
+problems while using git
+  1、error setting certificate verify locations: 		CAfile: c:/lib/mingw64/ssl/certs/ca-bundle.crt4
+    解决方案：暴力解决-git config --global http.sslVerify false
